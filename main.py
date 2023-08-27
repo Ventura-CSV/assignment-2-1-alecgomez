@@ -5,15 +5,15 @@ def main():
     females = (int(input('Number of females in the class: ')))
 
     total_students = (males + females)
-    m_perc = (males / total_students)
-    f_perc = (females / total_students)
+    m_perc = (males / total_students * 100)
+    f_perc = (females / total_students * 100)
 
     
 
 
     print(f'The total number of students: {total_students}')
     print(f'The number of males and females: {males, females}')
-    print(f'The percentage of males and females: {m_perc:.2%} {f_perc:.2%}')
+    print(f'The percentage of males and females: {m_perc:.2f} {f_perc:.2f45}')
  
  
     """
